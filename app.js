@@ -1,1 +1,3 @@
-alert(1);
+// listen for submit
+document.getElementById('loan-form').addEventListener('submit', calculateResults);
+
